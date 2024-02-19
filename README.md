@@ -45,14 +45,14 @@ Observe que, após a execução do comando, foram baixados alguns pacotes essenc
 
 ## Execute o seu projeto
 O projeto compartilhado já possui algumas linhas de código básicas no arquivo app.py. Abra esse arquivo e observe o código a seguir, nas linhas 4 a 6:
-`
+```
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return 'Olá Mundo'
-`    
+```    
 
 Foi programada a rota raiz (/) associada ao método index que exibirá na tela a mensagem 'Olá Mundo'. Para verificar o projeto do que está previamente codificado, você deve digitar no terminal o comando:
 
