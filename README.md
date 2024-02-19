@@ -118,15 +118,19 @@ Para fazer pela interface gráfica, na guia lateral, clique no símbolo de versi
 <img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/d277c4a7-2e78-4a1d-b725-319819b8dd13">
 
 Na sequência, digite a mensagem que representa as alterações que você fez:
+
 <img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/84001204-2c14-472d-b7ae-0acb5d1dae22">
 
 Em seguida, clique no botão Commit:
+
 <img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/2be72449-f63e-4163-95ed-25948c70b295">
 
 Caso apareça uma mensagem perguntando se deseja dar "stage" nas suas modificações, clique em Yes (ou Sim):
+
 <img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/2f9ee9f7-3260-4e1a-9323-6f6d1cf05195">
 
 Por fim, clique em Sync Changes, para efetivar as modificações no repositório:
+
 <img width="520" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/ef58ec82-6891-42ed-8bfa-fdda6ec6ae14">
 
 ## Iniciando novos codespaces com base no repositório salvo
