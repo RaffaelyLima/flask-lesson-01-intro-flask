@@ -28,16 +28,33 @@ Na sequência, ative o ambiente virtual criado usando o comando
 . venv/bin/activate
 `
 
-O comando acima é bastante importante e ele deve ser executado sempre que você for retomar a codificação em um ambiente virtual já criado.
+O comando acima é bastante importante e ele deve ser executado sempre que você for retomar a codificação em um ambiente virtual já criado. Observe que ao executar esse comando, o terminal passou a exibir o prefixo (venv) antes do início da linha de comando:
+<img width="610" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/186e9eca-efa5-426b-9019-6afbc673a129">
+
 
 ## Instale o python-flask no seu ambiente virtual
+
 Para que sua aplicação possa utilizar o Python-Flask é necessário instalar o pacote associado a esse framework. Para tanto, digite no terminal o comando:
 `
 pip install flask
 `
 
+Observe que, após a execução do comando, foram baixados alguns pacotes essenciais para o funcionamento do framework:
+
+<img width="747" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/ab56b202-7456-4a80-99fb-744c8da42fbe">
+
 ## Execute o seu projeto
-Para executar projetos Flask, você deve digitar no terminal o comando:
+O projeto compartilhado já possui algumas linhas de código básicas no arquivo app.py. Abra esse arquivo e observe o código a seguir, nas linhas 4 a 6:
+`
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Olá Mundo'
+`    
+
+Foi programada a rota raiz (/) associada ao método index que exibirá na tela a mensagem 'Olá Mundo'. Para verificar o projeto do que está previamente codificado, você deve digitar no terminal o comando:
 
 `
 flask run
