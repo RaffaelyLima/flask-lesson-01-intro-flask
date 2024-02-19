@@ -127,9 +127,14 @@ Caso apareça uma mensagem perguntando se deseja dar "stage" nas suas modificaç
 Por fim, clique em Sync Changes, para efetivar as modificações no repositório:
 <img width="520" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/ef58ec82-6891-42ed-8bfa-fdda6ec6ae14">
 
-# Para iniciar esse ambiente em outros codespaces ou em máquinas locais, você pode iniciar um novo ambiente virtual com a sequência de comandos a seguir:
+## Iniciando novos codespaces com base no repositório salvo
+Para iniciar esse ambiente em outros codespaces ou em máquinas locais, você pode iniciar um novo ambiente virtual digitando com a sequência de comandos a seguir no terminal do novo codespace:
 ```
-python -m venv venv  
+python -m venv venv
+```
+```  
 . venv/bin/activate
+```
+```
 pip install -r requirements.txt
 ```
