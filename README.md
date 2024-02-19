@@ -25,7 +25,7 @@ python -m venv venv
 Após a execução desse comando, observe que no seu projeto foi criada uma nova pasta chamada **venv**. Essa pasta representa o seu ambiente virtual. 
 Não se preocupe, pois esses novos arquivos não serão adicionados ao seu repositório, pois a pasta venv foi previamente adicionada ao arquivo .gitignore. Esse arquivo é um arquivo bastante importante em repositórios, pois informam quais pastas e arquivos não devem ter mudanças rastreadas. Pode abrir o arquivo .gitignore e verificar o seu conteúdo. 
 
-Na sequência, ative o ambiente virtual criado usando o comando
+Na sequência, ative o ambiente virtual criado usando o comando a seguir no terminal:
 ```
 . venv/bin/activate
 ```
@@ -33,6 +33,7 @@ Na sequência, ative o ambiente virtual criado usando o comando
 O comando acima é bastante importante e ele deve ser executado sempre que você for retomar a codificação em um ambiente virtual já criado. Observe que ao executar esse comando, o terminal passou a exibir o prefixo (venv) antes do início da linha de comando:
 <img width="610" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/186e9eca-efa5-426b-9019-6afbc673a129">
 
+Assim, da próxima vez que abrir seu codespace, não esqueça de digitar esse comando.
 
 ## Instale o python-flask no seu ambiente virtual
 
