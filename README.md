@@ -61,8 +61,15 @@ Foi programada a rota raiz (/) associada ao método index que exibirá na tela a
 flask run
 ```
 
+
+
 ## Abra o seu projeto no navegador
 Siga o link gerado após a execução do *flask run* para ver o resultado da sua aplicação.
+
+<img width="788" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/ab967623-e7ae-469c-8c41-095404fc7670">
+
+Observe a exibição da mensagem de retorno do método index no seu navegador.
+Para parar a execução da aplicação, basta pressionar as teclas CTRL + C, conforme sugerido no terminal.
 
 # Modificando seu projeto Flask
 
