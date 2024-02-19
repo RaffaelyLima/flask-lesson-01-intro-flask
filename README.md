@@ -20,6 +20,7 @@ No codespace criado, inicie um novo ambiente virtual. A criação do ambiente vi
 python -m venv venv
 ```
 
+Veja a figura a seguir como deve ser a execução desse comando:
 <img width="761" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/f48c6886-59b2-4cbe-9b94-e793f9ee401f">
 
 Após a execução desse comando, observe que no seu projeto foi criada uma nova pasta chamada **venv**. Essa pasta representa o seu ambiente virtual. 
