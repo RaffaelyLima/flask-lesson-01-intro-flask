@@ -74,7 +74,33 @@ Para parar a execução da aplicação, basta pressionar as teclas CTRL + C, con
 # Modificando seu projeto Flask
 
 ## Altere o arquivo app.py
-No seu arquivo app.py, adicione uma nova rota. Salve o projeto e efetue 
+O arquivo app.py possui os direcionamentos necessários para a criação de um projeto Python Flask. Observe o conteúdo desse arquivo. 
+Em projetos web, rotas são usadas nas aplicações atuais para possibilitar associar funções a URLs (Uniform  Resource Locator) e deixar o acesso às funções mais elegantes.
+
+No exemplo anterior, o **@app.route('/')** foi usado para associar a função **index** à URL base da aplicação. Assim, quando o usuário digitar no navegador o endereço da aplicação (por exemplo: https://super-dollop-v5rv95prx9xfxg64-5000.app.github.dev/), será apresentado na tela o retorno da função index.
+
+Valide o conceito de rotas criando uma nova função no arquivo app.py e associando essa função a uma nova rota (a rota /contato):
+
+```
+@app.route('/')
+def index():
+  return 'Essa é minha primeira aplicação em Flask!'
+
+@app.route('/contato')
+def contato():
+  return 'alba.lopes@ifrn.edu.br'
+```
+
+Caso seu projeto ainda esteja executando, pressione CTRL + C no terminal e na sequência, execute novamente o comando 
+
+```
+flask run
+```
+
+Siga o link para abrir o seu projeto no navegador e após o endereço da aplicação, digite `/contato` como no exemplo a seguir:
+
+<img width="448" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/fb63fd0c-fd8d-4cac-a9bb-f894ccea499e">
+
 
 ## Salvando as configurações do seu codespace
 Para que seja possível iniciar esse ambiente virtual em outros codespaces ou na sua máquina local, é importante que você salve as informações dos pacotes que foram instalados por meio do pip install no arquivo requirements.txt. Para isso, execute o seguinte comando no terminal:
@@ -84,8 +110,22 @@ pip freeze > requirements.txt
 ```
 
 ## Atualize o repositório com as modificações realizadas
-Até o momento, as modificações que foram realizadas não foram refletidas no seu repositório de código. Para que seja possível salvar as modificações, você deve fazer commit dessas alterações. Isso pode ser feito por meio da linha de comando ou por meio da interface gráfica do Visual Studio Code.
-Para fazer pela interface gráfica, pode
+Até o momento, as modificações que foram realizadas não foram refletidas no seu repositório de código. Para que seja possível salvar as modificações, você deve fazer commit dessas alterações. Isso pode ser feito por meio da linha de comando, caso já esteja familiarizado com os comandos git, ou por meio da interface gráfica do Visual Studio Code.
+Para fazer pela interface gráfica, na guia lateral, clique no símbolo de versionamento de código.
+
+<img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/d277c4a7-2e78-4a1d-b725-319819b8dd13">
+
+Na sequência, digite a mensagem que representa as alterações que você fez:
+<img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/84001204-2c14-472d-b7ae-0acb5d1dae22">
+
+Em seguida, clique no botão Commit:
+<img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/2be72449-f63e-4163-95ed-25948c70b295">
+
+Caso apareça uma mensagem perguntando se deseja dar "stage" nas suas modificações, clique em Yes (ou Sim):
+<img width="426" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/2f9ee9f7-3260-4e1a-9323-6f6d1cf05195">
+
+Por fim, clique em Sync Changes, para efetivar as modificações no repositório:
+<img width="520" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/ef58ec82-6891-42ed-8bfa-fdda6ec6ae14">
 
 # Para iniciar esse ambiente em outros codespaces ou em máquinas locais, você pode iniciar um novo ambiente virtual com a sequência de comandos a seguir:
 ```
