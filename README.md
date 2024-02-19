@@ -2,9 +2,12 @@
 
 ## Crie um novo codespace
 
-Ao abrir esse repositório, inicialmente você deve criar um novo Codespace. Para tanto, clique no botão verde "Code", em seguida, clique no botão "Create codespace on main", ilustrado na figura a seguir (ou clicando no símbolo +). Você verá que abrirá uma janela com o ambiente de programação do Visual Studio Code.
+Ao abrir esse repositório, inicialmente você deve criar um novo Codespace. Para tanto, clique no botão verde "Code", em seguida, clique no botão "Create codespace on main", ilustrado na figura a seguir (ou clicando no símbolo +).
+
 <img width="621" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/817f9226-e836-4911-9b29-289f65611c76">
 
+Você verá que abrirá uma janela com o ambiente de programação do Visual Studio Code.
+ 
 P.S: Caso esteja familiarizado com o Visual Studio Code ou deseje utilizá-lo em sua máquina local, sinta-se a vontade para  clonar o repositório localmente e efetivar os comandos a partir da sua máquina.
 
 ## Inicie um ambiente virtual
