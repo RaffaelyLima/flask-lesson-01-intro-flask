@@ -7,7 +7,9 @@ Ao abrir esse repositório, inicialmente você deve criar um novo Codespace. Par
 <img width="621" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/817f9226-e836-4911-9b29-289f65611c76">
 
 Você verá que abrirá uma janela com o ambiente de programação do Visual Studio Code.
- 
+
+ <img width="949" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/52e79ebd-e63e-4ddd-8392-723221bcb934">
+
 P.S: Caso esteja familiarizado com o Visual Studio Code ou deseje utilizá-lo em sua máquina local, sinta-se a vontade para  clonar o repositório localmente e efetivar os comandos a partir da sua máquina.
 
 ## Inicie um ambiente virtual
@@ -16,10 +18,17 @@ No codespace criado, inicie um novo ambiente virtual. A criação do ambiente vi
 
 `python -m venv venv`
 
+<img width="761" alt="image" src="https://github.com/IFRN-ZN-Alba-Lopes/flask-lesson-01-intro-flask/assets/13405201/f48c6886-59b2-4cbe-9b94-e793f9ee401f">
+
+Após a execução desse comando, observe que no seu projeto foi criada uma nova pasta chamada **venv**. Essa pasta representa o seu ambiente virtual. 
+Não se preocupe, pois esses novos arquivos não serão adicionados ao seu repositório, pois a pasta venv foi previamente adicionada ao arquivo .gitignore. Esse arquivo é um arquivo bastante importante em repositórios, pois informam quais pastas e arquivos não devem ter mudanças rastreadas. Pode abrir o arquivo .gitignore e verificar o seu conteúdo. 
+
 Na sequência, ative o ambiente virtual criado usando o comando
 `
 . venv/bin/activate
 `
+
+O comando acima é bastante importante e ele deve ser executado sempre que você for retomar a codificação em um ambiente virtual já criado.
 
 ## Instale o python-flask no seu ambiente virtual
 Para que sua aplicação possa utilizar o Python-Flask é necessário instalar o pacote associado a esse framework. Para tanto, digite no terminal o comando:
